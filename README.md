@@ -31,6 +31,6 @@ Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE pa
 
 Para eu começar meus estudos em JPA, estendi meu conhecimento realizando um curso na Udemy, o ["Spring Framework 5 e Spring Boot 2"](https://www.udemy.com/course/spring-framework-5-spring-boot-2/). Com o curso, adquiri os conceitos e práticas essenciais sobre o assunto, o que me ajudou a compreender melhor o funcionamento e a aplicação da JPA.
 
-Além disso, criei um arquivo em PDF com conceitos e exemplos de aplicação JPA básicos, disponibilizado no meu repositório no GitHub. Isso me permitiu revisar os tópicos aprendidos no curso e reforçar meu entendimento sobre a JPA.[clique aqui para acessar o PDF](https://github.com/MarcoAntonioMj/SpringBoot/tree/main/pdfs*)
+Além disso, criei um arquivo em PDF com conceitos e exemplos de aplicação JPA básicos, disponibilizado no meu repositório no GitHub. Isso me permitiu revisar os tópicos aprendidos no curso e reforçar meu entendimento sobre a JPA.[clique aqui para acessar o PDF](https://github.com/MarcoAntonioMj/Spring-Boot/tree/main/PDFS)
 
 Com esses recursos, estou dando os primeiros passos na aprendizagem de JPA e espero aprimorar meus conhecimentos nessa área.
