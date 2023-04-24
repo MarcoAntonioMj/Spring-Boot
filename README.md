@@ -101,3 +101,6 @@ public class MinhaEntidade {
   //...
 }
 ```
+## PEDI O CHAT GPT PARA FAZER UM EXERCICIO PARA TREINAR ESSAS ANOTAÇÔES :
+[clique aqui para acessar os exer](https://github.com/MarcoAntonioMj/Spring-Boot/blob/main/exer%20jpa.pdf)
+
