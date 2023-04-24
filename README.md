@@ -34,3 +34,70 @@ Para eu começar meus estudos em JPA, estendi meu conhecimento realizando um cur
 Além disso, criei um arquivo em PDF com conceitos e exemplos de aplicação JPA básicos, disponibilizado no meu repositório no GitHub. Isso me permitiu revisar os tópicos aprendidos no curso e reforçar meu entendimento sobre a JPA.[clique aqui para acessar o PDF](https://github.com/MarcoAntonioMj/Spring-Boot/tree/main/PDFS)
 
 Com esses recursos, estou dando os primeiros passos na aprendizagem de JPA e espero aprimorar meus conhecimentos nessa área.
+
+### @ Spring boot 
+
+Segue abaixo uma lista com algumas das principais anotações JPA em Spring Boot, um breve resumo do que cada uma faz e a importação necessária: 
+
+### @Entity - Indica que uma classe é uma entidade JPA que será mapeada para uma tabela do banco de dados.
+```
+import javax.persistence.Entity;
+@Entity
+public class MinhaEntidade {
+  //...
+}
+```
+### @Table - Especifica o nome da tabela do banco de dados correspondente a uma entidade JPA.
+```
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "nome_da_tabela")
+public class MinhaEntidade {
+  //...
+}
+```
+### @Id - Indica o atributo que é a chave primária da entidade.
+```
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class MinhaEntidade {
+  @Id
+  private Long id;
+  //...
+}
+```
+### @GeneratedValue - Especifica como a chave primária será gerada automaticamente pelo banco de dados.
+```
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class MinhaEntidade {
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  private Long id;
+  //...
+}
+```
+### @Column - Especifica o nome e outras propriedades de uma coluna do banco de dados correspondente a um atributo da entidade.
+```
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class MinhaEntidade {
+  @Id
+  private Long id;
+
+  @Column(name = "nome_completo", nullable = false)
+  private String nome;
+  //...
+}
+```
