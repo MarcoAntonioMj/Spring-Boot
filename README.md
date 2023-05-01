@@ -102,6 +102,8 @@ public class MinhaEntidade {
 }
 ```
 ## Eu pedi para o ChatGPT para fazer um exercício para treinar essas anotações: .
-[clique aqui para acessar os exer](https://github.com/MarcoAntonioMj/Spring-Boot/blob/main/exer%20jpa.pdf)
+[clique aqui para acessar os exer](https://github.com/MarcoAntonioMj/Spring-Boot/blob/main/PDFS/exer%20jpa.pdf)
 
 ## Para fazer o exercício tiver que aprender mais sobre a arquitetura Mvc
+[clique aqui para acessar os Pdf](https://github.com/MarcoAntonioMj/Spring-Boot/blob/main/PDFS/Arquitetura%20MVC.pdf)
+
