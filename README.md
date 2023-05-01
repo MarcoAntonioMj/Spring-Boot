@@ -107,3 +107,18 @@ public class MinhaEntidade {
 ## Para fazer o exercício tiver que aprender mais sobre a arquitetura Mvc
 [clique aqui para acessar os Pdf](https://github.com/MarcoAntonioMj/Spring-Boot/blob/main/PDFS/Arquitetura%20MVC.pdf)
 
+##Primeiro exerc :
+
+1- Define a classe produto que é uma entidade JPA mapeada para a tabela "produto" no banco de dados. A entidade tem três atributos: id, nome e preco.
+
+2- Define a interface ProdutoRepository, que é um repositório JPA que fornece uma operação para buscar produtos pelo nome.
+
+3- Define a classe ProdutoService, que fornece uma camada de serviço entre o ProdutoRepository e o ProdutoController. A classe ProdutoService implementa um método para buscar produtos pelo nome, que invoca a operação findByNome do ProdutoRepository.
+
+4- Define a classe ProdutoController, que é um controlador Spring MVC que lida com as solicitações HTTP relacionadas a produtos. O controlador tem um método buscarPorNome que é mapeado para o endpoint /produtoos/[nome] e retorna uma lista de produtos que correspondem ao nome fornecido.
+
+5- Define a classe TesteApplication que é a classe principal da aplicação Spring Boot.
+
+[O codigo esta disponivel aqui](https://github.com/MarcoAntonioMj/Spring-Boot/tree/main/teste/teste)
+
+[O Proximo exer 2 - clique aqui ](https://github.com/MarcoAntonioMj/Spring-Boot/blob/main/PDFS/Exer%202.pdf)
