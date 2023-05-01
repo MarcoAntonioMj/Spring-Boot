@@ -107,7 +107,7 @@ public class MinhaEntidade {
 ## Para fazer o exercício tiver que aprender mais sobre a arquitetura Mvc
 [clique aqui para acessar os Pdf](https://github.com/MarcoAntonioMj/Spring-Boot/blob/main/PDFS/Arquitetura%20MVC.pdf)
 
-##Primeiro exerc :
+## Primeiro exerc :
 
 1- Define a classe produto que é uma entidade JPA mapeada para a tabela "produto" no banco de dados. A entidade tem três atributos: id, nome e preco.
 
